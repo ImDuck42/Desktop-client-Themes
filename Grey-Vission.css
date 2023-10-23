@@ -13,6 +13,9 @@
 /* IMPORT CSS */
 @import url(https://clearvision.gitlab.io/v6/main.css);
 
+@import url("https://discordstyles.github.io/HorizontalServerList/base.css");
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
