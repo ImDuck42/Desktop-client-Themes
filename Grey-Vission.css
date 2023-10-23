@@ -18,6 +18,22 @@
 
 /* SETTINGS */
 :root {
+  /* RADIAL STATUS */
+	--rs-small-spacing: 0px;  /* spacing between avatar and status [default: 1px, newDefault: 0px] */
+  --rs-large-spacing: 0px;  /* spacing between avatar and status for user popouts & modals/profiles [default: 3px] */
+  --rs-width: 2px;  /* Width/thickness of status border [default: 2px] */
+  --rs-avatar-shape: var(--avatar-roundness);  /* 50% for round - 0% for square [newDefault: 2%]*/
+  --rs-online-color: var(--online-color);  /* See STATUS COLORS */
+  --rs-idle-color: var(--idle-color);  /* See STATUS COLORS */
+  --rs-dnd-color: var(--dnd-color);  /* See STATUS COLORS */
+  --rs-offline-color:  var(--offline-color);  /* See STATUS COLORS */
+  --rs-streaming-color: var(--streaming-color);  /* See STATUS COLORS */
+  --rs-invisible-color: var(--offline-color);  /* See STATUS COLORS */
+
+  /* HORIZONTAL SERVER LIST */
+	--HSL-server-icon-size: 40px;
+	--HSL-server-spacing: 10px;
+  
   /* ACCENT COLORS */
   --main-color: #5a5a5a; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #343434; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
