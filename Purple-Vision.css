@@ -1,5 +1,5 @@
 /**
- * @name PurpleVision
+ * @name Hu-TaoVision
  * @author Original: "ClearVision Team"
  * @version 6.3.0
  * @description Highly customizable theme for BetterDiscord.
@@ -16,10 +16,10 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #8200c8; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #3d007a; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-  --success-color: #001e98; /* success accent color (hex, rgb or hsl) [default: #43b581] */
-  --danger-color: #7f007b; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  --main-color: #c82f00; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #7a0000; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #fa7900; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #df0000; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
@@ -32,15 +32,15 @@
   /* GENERAL */
   --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-  --text-normal: rgb(203, 173, 255); /* color of default discord text */
-  --text-muted: rgb(211, 89, 255); /* color of default discord muted text (e.g.text found in input fields before typing).*/
+  --text-normal: rgb(255, 209, 157); /* color of default discord text */
+  --text-muted: rgb(255, 150, 89); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
   --members-width: 240px; /* member list width [default: 240px] */
 
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://raw.githubusercontent.com/ImDuck42/Desktop-client-Themes/main/Assets/Purple_Landscape.gif); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
+  --background-image: url(https://raw.githubusercontent.com/ImDuck42/Desktop-client-Themes/main/Assets/HuTao_Background.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.gitlab.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -60,7 +60,7 @@
 
   /* CHANNEL COLORS */
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
-  --channel-color: rgba(245, 166, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  --channel-color: rgba(255, 196, 119, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
   --channel-text-selected: #ffffff; /* Selected channel text color, CV default is #fff */
   --muted-color: rgba(255,255,255,0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
